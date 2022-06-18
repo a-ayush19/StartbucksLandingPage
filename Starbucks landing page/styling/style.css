@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    font-family: SoDoSans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    color: rgba(0, 0, 0, .87);
+}
+
+header {
+    height: 101px;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 10%), 0 2px 2px rgb(0 0 0 / 6%), 0 0 2px rgb(0 0 0 / 7%);
+
+}
+
+.header-container {
+    max-width: 1440px;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-nav {
+    display: flex;
+    align-items: center;
+    height: 100%;
+
+}
+
+.left-nav nav ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.left-nav nav ul li {
+    text-transform: uppercase;
+    padding-left: 24px;
+    font-weight: bolder;
+    font-size: 0.95em;
+    letter-spacing: 0.1em;
+}
+
+.left-nav nav ul li:hover {
+    color: #008248;
+    cursor: pointer;
+}
+
+.right-nav {
+    display: flex;
+    align-items: center;
+    height: 100%;
+
+}
+
+.find-store {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    font-size: small;
+}
+
+.logo {
+    height: 51px;
+    width: 51px;
+}
+
+.logo img {
+    height: 100%;
+    
+}
+
+.sign-in, .join-now {
+    padding: 7px 16px;
+    border: 1px solid;
+    line-height: 1.2;
+    border-radius: 50px;
+    font-weight: 600;
+}
+
+.sign-in:hover {
+    background-color: rgba(0,0,0,.06);
+    cursor: pointer;
+}
+
+.find-store:hover {
+    color: #008248;
+    cursor: pointer;
+}
+
+.sign-in{
+    margin-right: 16px;
+    margin-left: 15px;
+}
+
+.join-now {
+    background-color: black;
+    color: white;
+}
+
+.find-store i {
+    padding-right: 9px;
+    font-size: 23px;
+}
+
+.join-now:hover {
+    background-color: rgba(0, 0, 0, .7);
+    border-color: rgba(0, 0, 0, .7);
+    cursor: pointer;
+}

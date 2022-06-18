@@ -1,0 +1,200 @@
+.main-container {
+    height: 100%;
+    width: 100%;
+}
+
+.fathers-day {
+    margin-top: 1.5%;
+    display: flex;
+    margin-left: 11%;
+    margin-right: 11%;
+    text-align: center;
+    color: #1e3932;
+}
+
+
+.fathers-day .text {
+    height: 310px;
+    width: 730px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #41b6e6;
+    padding-top: 100px;
+    padding-left: 90px;
+    padding-right: 90px;
+    
+}
+
+.fathers-day .text h3 {
+    margin-top: 28px;
+    font-weight: 530;
+    line-height: 35px;
+}
+
+.fathers-day .image img{
+    height: 410px;
+    width: 730px;
+}
+
+.rewards {
+    margin-top: 1.5%;
+    display: flex;
+    margin-left: 11%;
+    margin-right: 11%;
+    text-align: center;
+    color: white;
+}
+
+.rewards .text {
+    height: 190px;
+    width: 733px;
+    background-color: #1e3932;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+}
+
+.rewards .image img {
+    height: 215px;
+    width: 704px;
+}
+
+.text .buttons {
+    padding: 7px 16px;
+    border: 1px solid;
+    line-height: 1.2;
+    border-radius: 50px;
+    font-weight: 600;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.rewards .buttons {
+    margin-top: 40px;
+}
+
+.buttons:hover {
+    cursor: pointer;
+    background-color: rgba(30,57,50,.1);
+}
+
+.rewards .buttons:hover {
+    background-color: hsla(0,0%,100%,.12);
+}
+
+.summer-ad {
+    margin-top: 1.5%;
+    display: flex;
+    margin-left: 11%;
+    margin-right: 11%;
+    text-align: center;
+    color: #ffffff;
+}
+
+.summer-ad .text {
+    background-color: #f06464;
+    padding-top: 50px;
+    padding-left: 90px;
+    padding-right: 90px;
+    height: 584px;
+    
+}
+
+.summer-ad .text h1 {
+    font-size: xxx-large;
+    font-weight: bolder;
+    padding-left: 90px;
+    padding-right: 90px;
+    
+}
+
+.summer-ad .text h2 {
+    font-size: x-large;
+    font-weight: 400;
+    line-height: 1.6;
+}
+
+.summer-ad .image img {
+    width: 730px;
+
+}
+
+.summer-ad .buttons:hover {
+    background-color: hsla(0,0%,100%,.12);
+}
+
+.non-dairy {
+    display: flex;
+    margin-left: 11%;
+    margin-right: 11%;
+    text-align: center;
+    margin-top: 1.5%;
+}
+
+.non-dairy .image img {
+    width: 705px;
+    height: 606px;
+}
+
+.non-dairy .text {
+    background-color: #9bf5b4;
+    padding-top: 100px;
+    padding-left: 90px;
+    padding-right: 90px;
+    height: 506px;
+}
+
+.non-dairy .text h1 {
+    font-size: xxx-large;
+    font-weight: bolder;
+    
+}
+
+.non-dairy .text h3 {
+    font-size: x-large;
+    font-weight: 400;
+    line-height: 1.6;
+}
+
+.employee {
+    margin-top: 1.5%;
+    display: flex;
+    margin-left: 11%;
+    margin-right: 11%;
+    text-align: center;
+}
+
+.employee .text {
+    background-color: #d4e9e2;
+    width: 705px;
+    padding-top: 5.5rem;
+    padding-left: 6rem;
+    padding-right: 7rem;
+    height: 312px;
+}
+
+.employee .image img {
+    height: 400px;
+    width: 730px;
+}
+
+.employee .text h3 {
+    line-height: 1.8;
+    font-weight: lighter;
+}
+
+.tnc {
+    text-align: center;
+    padding-top: 3rem;
+    padding-left: 600px;
+    padding-right: 600px;
+    line-height: 1.7;
+    font-size: 90%;
+    
+}
+
+.footer {
+    box-shadow: 0 -1px 3px rgb(0 0 0 / 10%), 0 -2px 2px rgb(0 0 0 / 6%), 0 0 2px rgb(0 0 0 / 7%);
+}
